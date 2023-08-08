@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Adopt a Pet</title>
+</head>
+<body>
+  <div class="header">
+  <a href="#home" class="logo">Adopt a Pet</a>
+    <div class="header-right">
+        <a href="#home">Home</a>
+        <a href="#pets">Pets</a>
+        <a href="#contact">contact</a>
+    </div>
+  </div>
+  <div id="home"> </div>
+  <h1>Available Animals:</h1>
+    <div id="pets"> </div>
+
+  <div id="animalContainer"></div>
+
+  <div id="contact">
+  <div class="container">
+
+  <form>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> Do you need to be contacted?</label><br>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
+  <script type="module" src="javascript.js"></script>
+</body>
+</html>

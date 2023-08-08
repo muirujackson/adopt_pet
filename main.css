@@ -1,0 +1,133 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  margin: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+#animalContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2%;
+    }
+    .animal-card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+      width: 45%;
+    }
+    
+    .animal-card img {
+      max-width: 100%;
+      height: auto;
+    }
+    .message {
+      font-style: italic;
+      text-align: center;
+    }
+
+.like-button, .dislike-button, .comment-button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.like-button.active, .dislike-button.active {
+  background-color: blue;
+  color: white;
+}
+
+.comment-section {
+  margin-top: 10px;
+}
+
+.comment-input {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.comments-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
