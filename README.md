@@ -1,5 +1,6 @@
 # adopt_pet
 Project Description: Pet Adoption Interface
+![home page](https://github.com/muirujackson/adopt_pet/blob/main/adopt.PNG)
 
 The "Pet Adoption Interface" project is a web application designed to provide users with an interactive and engaging platform to explore and interact with a collection of adoptable animals from various shelters. The application offers a user-friendly interface that displays animal details, allows users to express their preferences through like and dislike buttons, and enables them to engage with a comment section.
 
